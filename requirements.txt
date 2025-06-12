@@ -1,0 +1,22 @@
+# UI
+streamlit==1.35.0
+streamlit-chat==0.1.1  # Chat-style interface (or an equivalent)
+
+# Excel + Data Handling
+pandas==2.2.2
+openpyxl==3.1.2         # Excel file reading
+xlrd==2.0.1             # Legacy Excel support, if needed
+
+# OpenAI LLM Integration
+openai==1.30.1
+
+# Optional NLP utilities (if used for rule/keyword matching)
+nltk==3.8.1
+scikit-learn==1.4.2
+
+# Utilities
+python-dotenv==1.0.1     # For managing API keys securely
+tqdm==4.66.2             # Progress bar (optional for UX)
+
+# Ensure compatibility
+requests==2.31.0
